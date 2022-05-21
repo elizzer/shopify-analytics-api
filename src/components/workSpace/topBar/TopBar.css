@@ -1,0 +1,51 @@
+.TopBar{
+    height: 3rem;
+    background-color: #34495e;
+    display: flex;
+    align-items: center;
+    color: white;
+    justify-content: space-between;
+}
+
+.left{
+    display: flex;
+    align-items: center;
+    height: 100%;
+}
+
+.icons{
+    display: flex;
+    align-items: center;
+    margin-right: 1rem;
+    height: 100%;
+}
+
+.navs{
+    padding: 0 1rem;
+}
+
+.c-p{
+    cursor: pointer;
+}
+
+.iconBack{
+    width: 50px;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: all .5s ease-in-out;
+}
+
+.iconBack:Hover{
+    background-color: rgba(255, 255, 255, 0.423);
+}
+
+.profile{
+    height: 100%;
+}
+
+.profile div{
+    background-color:#3c5491;
+    border-radius: 50% 50%;
+}
